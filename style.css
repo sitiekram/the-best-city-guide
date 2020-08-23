@@ -1,0 +1,239 @@
+* {
+	box-sizing:border-box;
+}
+html,body{
+	font-family: sans-serif;
+	font-size:16px;
+	margin:0;
+	padding:0;
+}
+h2{
+	font-size:1.5rem;
+	margin:0;
+	padding:0;
+	color: #093a58;
+    font-family: 'Varela Round', sans-serif;
+}
+p
+{
+	font-size:1.1rem;
+	line-height:1.6;
+}
+img
+{
+	max-width:100%;
+}
+header{
+	text-align:center;
+	padding:2rem 0 0 0;
+}
+.main-section
+{
+	background-color:#3acec2;
+	padding:10rem 0 6rem 0;
+}
+.container{
+	width:80%;
+	margin:0 auto;
+}
+.logoheader{
+	text-decoration:none;
+	margin-bottom:2rem;
+	
+}
+.list-item
+{
+	list-style:none;
+	margin-bottom:1.5rem;
+	padding:1rem;
+}
+.list-link{
+   text-decoration:none;
+   color:#3acec2;
+   text-transform:uppercase;
+   
+}
+.list-item:hover
+{
+	background-color:#00ffff;
+	color:#262626;
+}
+.fa-star
+{
+	color:#3acec2;
+	margin-right:6px;
+}
+.row1
+{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.banner-title
+{   margin:2rem 0 0 0;
+  padding:0;
+	font-size:2.5rem;
+	font-weight:900;
+	color:white;
+}
+.banner-content
+{    margin:0;
+  padding:0;
+	font-size:2rem;
+	font-family: 'Varela Round', sans-serif;
+	color:white;
+	text-align: center;
+}
+
+.sub-section
+{
+	padding-bottom:1.5rem;
+}
+.col
+{
+	padding-top:3rem; 
+}
+.treats
+{
+	margin-top:20px;
+}
+footer
+{
+	background-color: rgb(217, 228, 234);
+	padding:1rem 0;
+}
+footer p
+{
+	text-align:center;
+}
+.ad-section
+{
+	background:url("https://previews.123rf.com/images/rottenman/rottenman1512/rottenman151200010/50072916-old-crumpled-paper-texture-background.jpg") no-repeat;
+    margin:2rem auto;
+    width:80%;
+    padding:3rem 0;
+    text-align:center;
+    
+}
+.container1
+{
+	width:90%;
+	margin:0 auto;
+}
+.ad-img
+{
+	margin-bottom:3.5rem;
+}
+.ad-section h2
+{
+	margin-bottom:2rem;
+}
+.ad-link
+{
+	text-decoration:none;
+	color: #093a58;
+	font-size:1.1rem;
+	font-weight:bold;
+	padding-left:1rem;
+	margin-top:2rem;
+}
+.ad-link:hover
+{
+	color:white;
+	background-color:#b3f0ff;
+	border-radius:50%;
+	padding:.75rem 1.25rem;
+}
+.top-nav
+{
+	color:white;
+	border-radius:50%;
+	background-color:#005ce6;
+	width:30px;
+	height:30px;
+	margin-bottom:5rem;
+	position:fixed;
+	right:10px;
+	bottom:5px;
+	text-align:center;
+	text-decoration:none;
+	padding-top:10px;
+}
+
+.top-nav:hover
+{
+	background-color:white;
+	color:#3385ff;
+	border:.2px solid #3385ff;
+}
+@media screen and (min-width: 750px)
+{
+	header
+	{
+		text-align:left;
+	}
+	.sticky
+{
+	position:fixed;
+	width:100%;
+	background-color:white;
+}
+  .list-menu
+  {
+    display:flex;
+  }
+  .list-item
+  {
+  	margin:0;
+  	margin-right:.8rem;
+  }
+  .list-item:last-child
+  {
+  	margin-right:0;
+  }
+  .row2
+  {
+  	display:grid;
+  	grid-template-columns:repeat(2,48%);
+  	grid-column-gap:4%;
+  }
+  .ncol
+  {
+  	grid-column:span 2;
+  }
+}
+@media screen and (min-width: 1150px)
+{
+	.row
+	{
+      display:flex;
+      justify-content:space-between;
+	}
+	.list-menu
+	{
+		margin-top:-.6rem;
+ 	}
+ 	
+	.row2
+	{
+		grid-template-columns:repeat(3,31%);
+		grid-column-gap:3.5%;
+	}
+	.ncol
+	{
+		grid-column:span 1;
+	}
+	.ad-img
+	{
+		width:46%;
+	}
+	.ad-col
+	{
+		width:42%;
+		align-self:center;
+	}
+	.ad-section
+	{
+		text-align:left;
+	}
+}
